@@ -1,0 +1,143 @@
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem; 
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.4rem; 
+  padding: 0 2.4rem; 
+}
+
+h1 {
+  font-size: 2.4rem; 
+  margin: 0;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 2.4rem; 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8rem; 
+}
+
+
+form {
+  margin-top: 4.8rem; 
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.8rem; 
+  margin-bottom: 0.8rem;
+}
+
+input[type="text"],
+textarea {
+  padding: 1.2rem; 
+  font-size: 1.6rem; 
+  margin-bottom: 1.6rem; 
+  border: none;
+  border-bottom: 1px solid #ccc;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.8rem; 
+  padding: 1.2rem 2.4rem; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.add-message-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.message {
+  border: 1px solid #ccc;
+  padding: 2.4rem; 
+  margin-bottom: 2.4rem; 
+}
+
+.message h2 {
+  font-size: 2rem; 
+}
+
+.message p {
+  font-size: 1.6rem; 
+  margin-bottom: 1.6rem; 
+}
+
+.message__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-thumbs-up,
+.fa-thumbs-down,
+.fa-trash {
+  font-size: 2rem; 
+  margin-right: 0.8rem; 
+  cursor: pointer;
+}
+
+.fa-thumbs-up:hover,
+.fa-thumbs-down:hover,
+.fa-trash:hover {
+  color: #333;
+}
+
+.fa-thumbs-up {
+  color: green;
+}
+
+.fa-thumbs-down {
+  color: red;
+}
+
+.message__likes {
+  font-size: 1.6rem; 
+}
+
